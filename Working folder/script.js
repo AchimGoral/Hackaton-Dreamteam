@@ -4,8 +4,10 @@ let clearAllButton = document.querySelector('.btn-clear');
 clearAllButton.addEventListener('click', clear);
 
 function clear() {
-    let inputArea = document.querySelector('.form-control');
-    inputArea.value = "";
+    let inputHeadline = document.querySelector(".form-control-headline");
+    let inputText = document.querySelector(".form-control-text");
+    inputHeadline.value = "";
+    inputText.value = "";
 }
 
 // Create new Blog card
