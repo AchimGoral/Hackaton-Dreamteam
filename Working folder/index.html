@@ -14,35 +14,53 @@
     </head>
     <body>
       <!-- Testing push -->
-         <!-- Start of Navbar -->
-  <div>
+      <!-- Start of Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        <div class="row">
+          <div class="col">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand  col-md-2" href="#home">Dreamteam  <i class="fas fa-code"></i>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand  col-md-2" href="#home">Dreamteam  <i class="fas fa-code"></i>
 
-          </a>
-          <ul class="navbar-nav navibar col-md-10 me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active grow" aria-current="page" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active grow" aria-current="page" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active grow" aria-current="page" href="#contact">Contact</a>
-            </li>
-          </ul>
+            </a>
+              <ul class="navbar-nav navibar col-md-10 me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active grow" aria-current="page" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active grow" aria-current="page" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active grow" aria-current="page" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-  </div>
   <!-- End of NavBar -->
+
+  <!-- Input-form -->
+  <div class="container-fluid container-form">
+    <div class="row row-form">
+      <div class="col-md-6 offset-md-3 col-form">
+        <form id="input-form">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-secondary btn-submit">Submit</button>
+          <button type="button" class="btn btn-secondary btn-clear">Clear</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
 
 

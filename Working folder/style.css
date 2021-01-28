@@ -1,13 +1,19 @@
 
 /* Navbar */
 .navbar{
+    position: absolute;
     background-color: rgb(72, 93, 224);
- }
+}
  
- .navibar{
-     display: flex;
-     justify-content: flex-end; 
-     padding-right: 100px;
-    
- }
- /* end of Navbar */
+.navibar{
+
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 100px;
+}
+
+/* end of Navbar */
+
+.container-form {
+    margin-top: 5vh;
+}
