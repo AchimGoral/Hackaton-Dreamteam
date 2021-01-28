@@ -98,3 +98,13 @@ ul {
     text-transform: uppercase;
 }
 /* end of team */
+
+/* start of contact page */
+.contact-div{ 
+    margin-top: 20vh;
+    height: 80vh;
+}
+.btn-contact{
+    background-color: rgb(97, 160, 255);
+}
+/* end of contact page */

@@ -12,14 +12,21 @@ function clear() {
 
 // Create new Blog card
 
-function createCard () {
-    let containerCard = document.querySelector('.blog-container-fluid');
+let containerCard;
+let divCard;
+let divCardBody;
+let cardTitle;
+let breakLine;
+let cardText;
 
-    let divCard = document.createElement('div');
-    let divCardBody = document.createElement('div');
-    let cardTitle = document.createElement('h5');
-    let breakLine = document.createElement('hr');
-    let cardText = document.createElement('p');
+function createCard () {
+    containerCard = document.querySelector('.blog-container-fluid');
+
+    divCard = document.createElement('div');
+    divCardBody = document.createElement('div');
+    cardTitle = document.createElement('h5');
+    breakLine = document.createElement('hr');
+    cardText = document.createElement('p');
 
     divCard.classList.add('card');
     divCardBody.classList.add('card-body');
@@ -29,7 +36,22 @@ function createCard () {
     divCardBody.appendChild(cardTitle);
     divCardBody.appendChild(breakLine);
     divCardBody.appendChild(cardText);
+}
 
-    divCard.appendChild(divCardBody);
-    containerCard.appendChild(divCard);
+// Submit the post
+let submitButton = document.querySelector(".btn-submit");
+
+submitButton.addEventListener("click", addContent);
+
+function addContent () {
+    let inputHeadline = document.querySelector(".form-control-headline").value;
+    let textField = document.querySelector(".form-control-text").value;
+    createCard();
+    let headline = document.createTextNode(inputHeadline);
+    cardTitle.appendChild(headline);
+
+    let text = document.createTextNode(textField);
+    cardText.appendChild(text);
+    
+    containerCard.appendChild(divCardBody);
 }
