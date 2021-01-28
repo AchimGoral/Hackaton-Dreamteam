@@ -1,5 +1,9 @@
 /* General */
 
+body{
+    background-color: rgb(247,247,247)!important;
+}
+
 .divider {
     width: 80vw;
     margin: auto;
@@ -8,6 +12,7 @@
 /* General end */
 
 /* Navbar */
+
 .navbar{
     background-color: rgb(72, 93, 224);
 }
@@ -16,6 +21,7 @@
      justify-content: flex-end; 
      padding-right: 100px;
 }
+
 /* end of Navbar */
 
 /* Container form */
@@ -36,7 +42,8 @@
     align-items: center; 
 }
 .blog-container-fluid{
-    display: grid;
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1fr);
     grid-gap: 10px;
@@ -46,9 +53,14 @@
     width: 18rem;
 }
 
+.card-title {
+    text-align: center;
+}
+
 /* end of container form */
 
 /* start of team */
+
 .row{
     display: block;
     justify-content: center;
@@ -97,9 +109,11 @@ ul {
     padding: 6px 0;
     text-transform: uppercase;
 }
+
 /* end of team */
 
 /* start of contact page */
+
 .contact-div{ 
     margin-top: 20vh;
     height: 80vh;
@@ -107,4 +121,5 @@ ul {
 .btn-contact{
     background-color: rgb(97, 160, 255);
 }
+
 /* end of contact page */

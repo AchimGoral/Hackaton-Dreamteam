@@ -49,8 +49,7 @@
         <form id="input-form">
           <div class="form-group">
             <input class="form-control form-control-headline" type="text" placeholder="Headline">
-            <label for="exampleFormControlTextarea1">Tell us your story</label>
-            <textarea class="form-control form-control-text" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control form-control-text" placeholder="Talk to us..." id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <button type="button" class="btn btn-secondary btn-submit">Submit</button>
           <button type="button" class="btn btn-secondary btn-clear">Clear</button>
@@ -63,56 +62,105 @@
   <!-- Start of scroll bar -->
   <div data-spy=“scroll” data-target=“#navbar-example2" data-offset=“0”>
     <!-- start of cards blog -->
-    <div id="blog" class="blog-container-fluid"></div>
+    <div id="blog" class="blog-container-fluid">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">I want to be a developer</h5>
+          <hr>
+          <p class="card-text">
+            I decided recently to become a web developer.
+            I started contacting local bootcamps in my city
+            and found an english speaking school called Developers Institute.
+            I will continue to post in here what we learn.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">HTML/CSS</h5>
+          <hr>
+          <p class="card-text">
+            HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for
+            building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a
+            variety
+            of devices.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Javascript</h5>
+          <hr>
+          <p class="card-text">
+            JavaScript is a text-based programming language used both on the client-side and server-side that allows you
+            to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages,
+            JavaScript gives web pages interactive elements that engage a user.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">DOM Manipulation</h5>
+          <hr>
+          <p class="card-text">
+            The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or
+            HTML document as a tree structure wherein each node is an object representing a part of the document. The
+            DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node
+            contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure,
+            style or content of a document. Nodes can have event handlers attached to them. Once an event is triggered,
+            the event handlers get executed.[2]
+          </p>
+        </div>
+      </div>
+    </div>
     <!-- end of cards blog -->
     <hr class="divider">
-    <!-- start of team (to share) -->
-    <section id="team" class="team padding-lg">
-      <div class="container">
-        <div class="row heading heading-icon">
-          <h2>Team</h2>
+      <!-- start of team (to share) -->
+      <section id="team" class="team padding-lg">
+        <div class="container">
+          <div class="row heading heading-icon">
+            <h2>THE THREE AMIGOS</h2>
+          </div>
+          <ul class="row">
+            <li class="col-12 col-md-6 col-lg-3">
+              <div class="cnt-block equal-hight" style="height: 349px;">
+                <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="">
+                </figure>
+                <h3 class="nameh3"><a href="#">Achim Goral</a></h3>
+                <p>Web Developer <br> (Coming Soon)</p>
+                <ul class="follow-us clearfix">
+                  <li><a href="https://www.linkedin.com/in/achim-goral/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://github.com/AchimGoral" target="_blank"><i class="fab fa-github"></i> </a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3">
+              <div class="cnt-block equal-hight" style="height: 349px;">
+                <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="">
+                </figure>
+                <h3 class="nameh3"><a href="#">Joshua Phillips</a></h3>
+                <p>Web Developer <br> (Coming Soon)</p>
+                <ul class="follow-us clearfix">
+                  <li><a href="https://www.linkedin.com/in/joshua-phillips-2550881b1/" target="_blank"><i class="fab fa-linkedin-in"></i> </a></li>
+                  <li><a href="https://github.com/RMJ2" target="_blank"><i class="fab fa-github"></i> </a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3">
+              <div class="cnt-block equal-hight" style="height: 349px;">
+                <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt="">
+                </figure>
+                <h3 class="nameh3"><a href="#">Itamar Menachemi</a></h3>
+                <p>Web Developer <br> (Coming Soon)</p>
+                <ul class="follow-us clearfix">
+                  <li><a href="https://github.com/Itamar1m" target="_blank"><i class="fab fa-github"></i> </a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
         </div>
-        <ul class="row">
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt="">
-              </figure>
-              <h3 class="nameh3"><a href="#">Achim Goral</a></h3>
-              <p>Web Developer <br> (Coming Soon)</p>
-              <ul class="follow-us clearfix">
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i> </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt="">
-              </figure>
-              <h3 class="nameh3"><a href="#">Joshua Phillips</a></h3>
-              <p>Web Developer <br> (Coming Soon)</p>
-              <ul class="follow-us clearfix">
-                <li><a href="#"><i class="fab fa-linkedin-in"></i> </a></li>
-                <li><a href="#"><i class="fab fa-github"></i> </a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="col-12 col-md-6 col-lg-3">
-            <div class="cnt-block equal-hight" style="height: 349px;">
-              <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt="">
-              </figure>
-              <h3 class="nameh3"><a href="#">Itamar Menachemi</a></h3>
-              <p>Web Developer <br> (Coming Soon)</p>
-              <ul class="follow-us clearfix">
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i> </a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- start of team  -->
+      </section>
+      <!-- end of team  -->
   </div>
   <!-- End of scroll bar -->
   <!-- Start of Footer -->
