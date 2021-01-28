@@ -1,8 +1,9 @@
 
 /* Navbar */
 .navbar{
+    position: absolute;
     background-color: rgb(72, 93, 224);
- }
+}
  
  .navibar{
      display: flex;
