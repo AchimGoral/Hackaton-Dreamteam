@@ -1,15 +1,27 @@
 /* Navbar */
 .navbar{
     background-color: rgb(72, 93, 224);
-}
-.navibar{
+ }
+ .navibar{
      display: flex;
      justify-content: flex-end; 
      padding-right: 100px;
-}
-/* Form-container */
+ }
+ /* end of Navbar */
 .container-form {
     margin-top: 5vh;
+    height: 50vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.row-form{ 
+    position: relative;
+    top: 25%;
+    margin-top: 25vh ;
+    display: block;
+    justify-content: center;
+    align-items: center; 
 }
 .blog-container-fluid{
     display: grid;
