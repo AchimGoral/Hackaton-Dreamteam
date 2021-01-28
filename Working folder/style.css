@@ -1,0 +1,13 @@
+
+/* Navbar */
+.navbar{
+    background-color: rgb(72, 93, 224);
+ }
+ 
+ .navibar{
+     display: flex;
+     justify-content: flex-end; 
+     padding-right: 100px;
+    
+ }
+ /* end of Navbar */
