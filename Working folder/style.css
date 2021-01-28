@@ -1,17 +1,15 @@
 /* General */
 
-body{
+body {
     background-color: rgb(247,247,247)!important;
 }
 
 .divider {
     width: 80vw;
     margin: 5em auto ;
-    
-
 }
 
-.divider-block{
+.divider-blog {
     margin-top: 8em;
 }
 
@@ -22,10 +20,11 @@ body{
 .navbar{
     background-color: rgb(72, 93, 224);
 }
- .navibar{
-     display: flex;
-     justify-content: flex-end; 
-     padding-right: 100px;
+
+.navibar{
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 100px;
 }
 
 /* end of Navbar */
@@ -37,7 +36,6 @@ body{
     height: 20vh;
     display: flex;
     justify-content: center;
-    
 }
 
 .row-form{ 
@@ -49,23 +47,19 @@ body{
     align-items: center; 
     width: 70vw;
 }
-.blog-container-fluid{
+
+.blog-container-fluid {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
     grid-gap: 10px;
     margin: 0 5em;
-    
 }
-
 
 .card {
     width: 18rem;
     flex-wrap: wrap;
-
-    /* height: max-content; */
-
 }
 
 .card-title {
@@ -76,13 +70,13 @@ body{
 
 /* start of team */
 
-.row{
+.row {
     display: block;
     justify-content: center;
     gap: 20px;
 }
 
-#btn-color{
+#btn-color {
     background-color:  rgb(72, 93, 224);
     color: whitesmoke;
     width: 25vw;
@@ -91,13 +85,13 @@ body{
     
 }
 
-.main-heading{
+.main-heading {
     padding-top: 20vh;
 
 }
 
 
-.h2-heading{
+.h2-heading {
     color: black;
     font-size: 52.52px;
     line-height: 95px;
@@ -107,12 +101,14 @@ body{
     padding-bottom: 20px;
     text-transform: uppercase;
 }
-.img-responsive{
+
+.img-responsive {
     width: 148px;
     height: 148px;
     border-radius: 100%;
 }
-.cnt-block{
+
+.cnt-block {
     float: left;
     width: 100%;
     background: #fff;
@@ -121,7 +117,8 @@ body{
     border: 2px solid #d5d5d5;
     margin: 0 0 28px;
 }
-.follow-us{
+
+.follow-us {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -130,10 +127,12 @@ body{
     font-size: 24px;
     color: #767676;
 }
+
 ul {
     list-style-type: none;
 }
-.nameh3{
+
+.nameh3 {
     color: #2a2a2a;
     font-size: 20px;
     font-weight: 500;
@@ -145,11 +144,12 @@ ul {
 
 /* start of contact page */
 
-.contact-div{ 
+.contact-div { 
     margin-top: 20vh;
     height: 80vh;
 }
-.btn-contact{
+
+.btn-contact {
     background-color: rgb(97, 160, 255);
 }
 
