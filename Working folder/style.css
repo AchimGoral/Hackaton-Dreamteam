@@ -6,7 +6,13 @@ body{
 
 .divider {
     width: 80vw;
-    margin: auto;
+    margin: 5em auto ;
+    
+
+}
+
+.divider-block{
+    margin-top: 8em;
 }
 
 /* General end */
@@ -28,11 +34,12 @@ body{
 
 .container-form {
     margin-top: 5vh;
-    height: 50vh;
-    /* display: flex;
+    height: 20vh;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    
 }
+
 .row-form{ 
     position: relative;
     top: 25%;
@@ -40,17 +47,25 @@ body{
     display: block;
     justify-content: center;
     align-items: center; 
+    width: 70vw;
 }
 .blog-container-fluid{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap-reverse;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1fr);
     grid-gap: 10px;
+    margin: 0 5em;
+    
 }
+
 
 .card {
     width: 18rem;
+    flex-wrap: wrap;
+
+    /* height: max-content; */
+
 }
 
 .card-title {
@@ -66,7 +81,23 @@ body{
     justify-content: center;
     gap: 20px;
 }
-.row.heading h2{
+
+#btn-color{
+    background-color:  rgb(72, 93, 224);
+    color: whitesmoke;
+    width: 25vw;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    
+}
+
+.main-heading{
+    padding-top: 20vh;
+
+}
+
+
+.h2-heading{
     color: black;
     font-size: 52.52px;
     line-height: 95px;
