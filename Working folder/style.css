@@ -1,13 +1,25 @@
+/* General */
+
+.divider {
+    width: 80vw;
+    margin: auto;
+}
+
+/* General end */
+
 /* Navbar */
 .navbar{
     background-color: rgb(72, 93, 224);
- }
+}
  .navibar{
      display: flex;
      justify-content: flex-end; 
      padding-right: 100px;
- }
- /* end of Navbar */
+}
+/* end of Navbar */
+
+/* Container form */
+
 .container-form {
     margin-top: 5vh;
     height: 50vh;
@@ -33,3 +45,56 @@
 .card {
     width: 18rem;
 }
+
+/* end of container form */
+
+/* start of team */
+.row{
+    display: block;
+    justify-content: center;
+    gap: 20px;
+}
+.row.heading h2{
+    color: black;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.img-responsive{
+    width: 148px;
+    height: 148px;
+    border-radius: 100%;
+}
+.cnt-block{
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border: 2px solid #d5d5d5;
+    margin: 0 0 28px;
+}
+.follow-us{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: auto;
+    margin-left: 10px;
+    font-size: 24px;
+    color: #767676;
+}
+ul {
+    list-style-type: none;
+}
+.nameh3{
+    color: #2a2a2a;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-transform: uppercase;
+}
+/* end of team */
