@@ -1,22 +1,19 @@
 /* Navbar */
-
 .navbar{
-    position: absolute;
     background-color: rgb(72, 93, 224);
 }
- 
- .navibar{
+.navibar{
      display: flex;
      justify-content: flex-end; 
      padding-right: 100px;
 }
-
 /* Form-container */
-
 .container-form {
     margin-top: 5vh;
 }
-
- body {
-    padding-top: 100px;
-  }
+.blog-container-fluid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1fr);
+    grid-gap: 10px;
+}
