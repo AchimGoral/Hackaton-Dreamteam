@@ -30,7 +30,8 @@ M.Autocomplete.init(ac, {
         "HEROKU": null,
         "AWS": null,
         "DEVELOPERS INSTITUTE": null,
-
+        "DONALD TRUMP CAN SUCK IT": null,
+        "WHATEVER YOU WANT": null
     }
 });
 
@@ -48,26 +49,21 @@ M.ScrollSpy.init(ss, {});
 window.onload = function () {
     window.setTimeout(fadein, 1500); //8 seconds
 };
-
 function fadein() {
     document.getElementById('fadeIn').style.opacity = '1';
 }
-
 let buttonYes = document.getElementById('btnYes');
 let buttonNo = document.getElementById('btnNo');
 buttonYes.addEventListener("click", welcome);
 buttonNo.addEventListener("click", goodBye);
 let msg = document.getElementById('fadeIn');
-
 function goodBye() {
     msg.innerText = 'Maybe it is time to reconsider joining Devlopers Institute';
     setTimeout(clearWelcome, 2000);
 }
-
 function welcome() {
     msg.innerText = 'Share your ideas with us';
 }
-
 function clearWelcome() {
     msg.style.opacity = '0';
 }
