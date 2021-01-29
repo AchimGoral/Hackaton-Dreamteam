@@ -30,6 +30,10 @@ p {
   margin: 0 0 8px;
   padding: 5px;
   outline: none;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 92.5%;
+  max-height: 300px;
 }
 
 /* Search end */

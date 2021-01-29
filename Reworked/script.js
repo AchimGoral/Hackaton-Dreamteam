@@ -60,12 +60,12 @@ buttonNo.addEventListener("click", goodBye);
 let msg = document.getElementById('fadeIn');
 
 function goodBye() {
-    msg.innerText = 'What are you doing with your life';
+    msg.innerText = 'Maybe it is time to reconsider joining Devlopers Institute';
+    setTimeout(clearWelcome, 2000);
 }
 
 function welcome() {
-    msg.innerText = 'Well then ,share your ideas with us!';
-    setTimeout(clearWelcome, 2000);
+    msg.innerText = 'Share your ideas with us';
 }
 
 function clearWelcome() {
