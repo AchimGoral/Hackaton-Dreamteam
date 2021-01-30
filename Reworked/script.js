@@ -58,7 +58,7 @@ buttonYes.addEventListener("click", welcome);
 buttonNo.addEventListener("click", goodBye);
 let msg = document.getElementById('fadeIn');
 function goodBye() {
-    msg.innerText = 'Maybe it is time to reconsider joining Devlopers Institute';
+    msg.innerText = 'Maybe it is time to reconsider joining Developers Institute';
     setTimeout(clearWelcome, 2000);
 }
 function welcome() {
