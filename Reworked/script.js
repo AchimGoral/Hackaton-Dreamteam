@@ -47,7 +47,7 @@ M.ScrollSpy.init(ss, {});
 
 // Fade-In
 window.onload = function () {
-    window.setTimeout(fadein, 1500); //8 seconds
+    window.setTimeout(fadein, 1500); //1.5 seconds
 };
 function fadein() {
     document.getElementById('fadeIn').style.opacity = '1';
